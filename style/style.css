@@ -1,0 +1,241 @@
+@font-face {
+  font-family: roboto-thin;
+  src: url(../font/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto-light;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: roboto-black;
+  src: url(../font/Roboto-Black.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50px 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(purple, rgb(255, 0, 242), aqua, blue);
+}
+body main header nav {
+  border-radius: 20px;
+  margin-top: 2px;
+}
+body main header nav img {
+  width: 50px;
+  height: 50px;
+}
+body main header .carousel {
+  padding-top: 100px;
+  width: 90%;
+}
+body main header .carousel .carousel-inner .carousel-item img {
+  width: 1000px;
+  height: 600px;
+  border-radius: 25px;
+}
+body main .content-section {
+  padding-top: 100px;
+  gap: 100px;
+  flex-direction: column;
+}
+body main .content-section .project-page {
+  justify-content: space-around;
+}
+body main .content-section .project-page .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+  background-image: linear-gradient(#ec53b0, #9d44c0, #4d2db7, #0e21a0);
+  color: #fff;
+  font-family: roboto-regular;
+}
+body main .content-section .project-page .card .btn {
+  width: 100%;
+}
+body main .content-section h2 {
+  text-align: center;
+  font-family: roboto-bold;
+  font-size: 50px;
+}
+body main .content-section .developer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+  background-size: cover;
+}
+body main .content-section .developer .text-section {
+  justify-content: center;
+}
+body main .content-section .developer .text-section .golden-sentence {
+  width: 600px;
+  height: 450px;
+  background-size: cover;
+  background-image: linear-gradient(to right, purple, #5c258d, blue);
+  border-radius: 50px;
+}
+body main .content-section .developer .text-section .golden-sentence p {
+  font-size: 30px;
+  font-family: roboto-regular;
+  border-radius: 20px;
+  text-align: center;
+  background: linear-gradient(to right, red, yellow, green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body main .content-section .about {
+  color: red;
+  font-family: roboto-bold;
+}
+body main .content-section .about-me {
+  background-image: url(../images/kym-ellis-VS1uBhwf8a4-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  border-radius: 20px;
+  justify-content: center;
+  padding-top: 200px;
+}
+body main .content-section .about-me .about-me-text {
+  width: 800px;
+  height: 200px;
+  border-radius: 25px;
+  align-items: center;
+  background-color: black;
+}
+body main .content-section .about-me .about-me-text p {
+  background: linear-gradient(to right, purple, aqua, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  width: 800px;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.712);
+  font-family: roboto-regular;
+}
+body main .content-section .skill {
+  color: yellow;
+  font-family: roboto-bold;
+}
+body main .content-section .my-skill {
+  row-gap: 50px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  border-radius: 80px;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+body main .content-section .my-skill .progress {
+  width: 500px;
+  font-family: roboto-regular;
+}
+body main .content-section .my-skill .progress-bar-orange {
+  background-color: rgb(255, 115, 0);
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+body main .content-section .thank {
+  color: #fff;
+  font-family: roboto-black;
+  padding-bottom: 50px;
+}
+body main footer {
+  width: 100%;
+  height: 120px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main footer h2 {
+  font-family: roboto-bold;
+  color: red;
+  font-size: 40px;
+}
+body main footer .conectting-path {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body main footer .conectting-path a {
+  color: black;
+}
+body main footer .conectting-path svg {
+  width: 50px;
+  height: 50px;
+}
+
+.my-skill,
+footer {
+  background: linear-gradient(270deg, #0011ff, #008cff, #ff00f5, #ff0090, #af00ff);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
